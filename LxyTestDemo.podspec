@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LxyTestDemo"
-  s.version      = "1.0.2"
+  s.version      = "1.0.5"
   s.summary      = "这个是测试"
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LxyTestDemo/*"
+  s.source_files  = "LxyTestDemo/**/*"
   # s.exclude_files = "LxyTestDemo/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -131,6 +131,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency "AFNetworking", "~> 3.1.0"
+  s.dependency "AFNetworking", "~> 3.1.0"
+  s.dependency 'CommonCrypto'
 
 end

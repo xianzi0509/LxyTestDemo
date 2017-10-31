@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <CommonCrypto/CommonDigest.h>
+#import <MapKit/MapKit.h>
 
 @interface ViewController ()
 
