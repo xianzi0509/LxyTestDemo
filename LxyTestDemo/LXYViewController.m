@@ -6,16 +6,18 @@
 //  Copyright © 2017年 lxy. All rights reserved.
 //
 
-#import "ViewController.h"
-
-@interface ViewController ()
+#import "LXYViewController.h"
+#import <AFNetworking/AFNetworking.h>
+@interface LXYViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LXYViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
